@@ -1,0 +1,56 @@
+#titleBar {
+  height: 60px;
+  background: #292929;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.material-icons {
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#logo {
+  position: absolute;
+  left: 20px;
+  font-size: 40px;
+}
+
+#name {
+  position: absolute;
+  position: absolute;
+  left: 100px;
+  font-style: italic;
+  margin: auto;
+  font-family: cursive;
+  font-size: 40px;
+  color: #8b8b8b;
+  text-shadow: 0 0 0px white;
+}
+
+.div {
+  width: 60px;
+  height: 30px;
+  background: #484949;
+  margin-right: 33px;
+  border-radius: 20px;
+}
+#div1{ background: white}
+#div2{background: #c3c2c2
+}
+#div3{background: #9b9b9b}
+#div4{background: #999999
+}
+#div5{background: #797979
+}
+#div6{background: #5f5e5e
+}
+#div7{background: #535353
+}
+#div8{background: #454545
+}
+#div9{background: #3e3e3e
+}
+#div10{background: #373636;
+}

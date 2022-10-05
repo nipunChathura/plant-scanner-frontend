@@ -1,0 +1,187 @@
+#background {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+#img{
+  width: 100%;
+  height: 100%;
+}
+
+#secondBackground {
+  width: 95%;
+  height: 95%;
+  background: rgba(42, 39, 39, 0.61);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 20px;
+  //opacity: 0.6;
+  box-shadow: 0px 0px 26px 1px rgb(255 255 255 / 20%);
+}
+
+#description {
+  position: absolute;
+  width: 680px;
+  //width: 100%;
+  height: 660px;
+  background: rgba(0, 0, 0, 0.51);
+  margin: auto;
+  left: 20px;
+  top: 20px;
+  border-radius: 20px;
+  //opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+}
+
+#form {
+  position: absolute;
+  width: 680px;
+  height: 660px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  left: 742px;
+  top: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  //opacity: 0.5;
+}
+
+#line {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 15px;
+  height: 670px;
+  background: #f6f1f1;
+  width: 4px;
+}
+
+#title {
+  //position: absolute;
+  //left: 0;
+  //right: 0;
+  position: absolute;
+  top: 140px;
+  left: 80px;
+  font-size: 8rem;
+  //text-decoration: underline #ffffff;
+  color: rgb(246, 241, 241, 1);
+}
+
+#title1 {
+  position: absolute;
+  top: 162px;
+  left: 153px;
+  font-size: 4rem;
+  color: #f6f1f1;
+}
+
+#title2 {
+  position: absolute;
+  top: 280px;
+  left: 260px;
+  font-size: 8rem;
+  color: #f6f1f1;
+}
+
+#title3 {
+  position: absolute;
+  top: 301px;
+  left: 334px;
+  font-size: 4rem;
+  color: #f6f1f1;
+}
+
+#login {
+  position: absolute;
+  top: 70px;
+  font-size: 2.5rem;
+  text-shadow: 0 0 13px #ffffff;
+  color: #f6f1f1;
+}
+
+.mat-icon {
+  position: absolute;
+  top: 140px;
+  left: 280px;
+  font-size: 120px;
+  color: white;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+#matIcon {
+  width: max-content;
+  background: white;
+}
+
+#userName {
+  position: absolute;
+  top: 300px;
+  left: 244px;
+}
+
+#password {
+  position: absolute;
+  top: 375px;
+  left: 245px;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  background: border-box;
+  color: chartreuse;
+}
+
+.mat-form-field-label-raw{
+  color: chartreuse;
+}
+
+#btnLog {
+  position: absolute;
+  top: 485px;
+  left: 288px;
+  width: 110px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+#btnLog:hover {
+  background-color: chartreuse;
+  box-shadow: 0 0 3px 2px chartreuse;
+}
+
+#btnLog:active {
+  background-color: chartreuse;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#txtOr {
+  position: absolute;
+  top: 545px;
+  left: 331px;
+  font-size: 12px;
+  font-weight: 200;
+  color: white;
+}
+
+#btnSingUp {
+  position: absolute;
+  top: 578px;
+  left: 300px;
+  color: white;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#btnSingUp:hover {
+  cursor: pointer;
+}
